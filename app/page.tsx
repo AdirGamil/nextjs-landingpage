@@ -1,6 +1,10 @@
+import Home from "@/components/Home/Home"
+
 const HomePage = () => {
   return (
-    <div className="text-3xl">HomePage</div>
+    <div >
+      <Home />
+    </div>
   )
 }
 
