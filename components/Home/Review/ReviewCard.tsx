@@ -34,8 +34,8 @@ const ReviewCard = ({ name, image }: Props) => {
           <Image
             src={image}
             alt={name}
-            width={250}
-            height={150}
+            width={350}
+            height={250}
             className=" rounded-full"
           />
         </div>
