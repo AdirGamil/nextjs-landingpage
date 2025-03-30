@@ -1,42 +1,15 @@
 'use client'
+import { navLinks } from '@/constant/Constant'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 
-const navLinks = [
-  {
-    id: 1,
-    url: '#',
-    label: 'Home',
-  },
-  {
-    id: 2,
-    url: '#',
-    label: 'About',
-  },
-  {
-    id: 3,
-    url: '#',
-    label: 'Features',
-  },
-  {
-    id: 4,
-    url: '#',
-    label: 'Testimonials',
-  },
-  {
-    id: 5,
-    url: '#',
-    label: 'Blog',
-  },
-  {
-    id: 6,
-    url: '#',
-    label: 'Contact',
-  },
-]
+type Props = {
+  openNav: () => void
+}
 
-const Nav = () => {
+
+const Nav = ({ openNav }: Props) => {
   const [navBg, setNavBg] = useState(false)
 
   useEffect(() => {
@@ -76,7 +49,7 @@ const Nav = () => {
             Join Now
           </button>
           {/* BurgerMenu */}
-          <HiBars3BottomRight className="w-8 h-8 cursor-pointer text-black lg:hidden" />
+          <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-black lg:hidden" />
         </div>
       </div>
     </div>
