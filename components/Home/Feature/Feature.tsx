@@ -64,8 +64,8 @@ const Feature = () => {
             >
               <div className="text-3xl w-14 h-14 bg-gray-200 bg-opacity-10 flex items-center justify-center flex-col rounded-full">
                 {feature.icon}
-                </div>
-              <p className='font-semibold'>{feature.title}</p>
+              </div>
+              <p className="font-semibold">{feature.title}</p>
             </div>
           ))}
         </div>

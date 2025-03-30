@@ -1,6 +1,7 @@
 import AnalyticsFeature from "./AnalyticsFeature/AnalyticsFeature"
 import Feature from "./Feature/Feature"
 import Hero from "./Hero/Hero"
+import Review from "./Review/Review"
 import WhyChoose from "./WhyChoose/WhyChoose"
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
         <WhyChoose />
         <AnalyticsFeature />
         <Feature />
+        <Review />
     </div>
   )
 }
