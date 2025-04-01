@@ -9,12 +9,18 @@ type Props = {
   variant?: 'fade-up' | 'fade-left' | 'fade-right' | 'zoom-in'
 }
 
-const FadeInWhenVisible = ({ children, delay = 0, variant = 'fade-up' }: Props) => {
+const FadeInWhenVisible = ({
+  children,
+  delay = 0,
+  variant = 'fade-up',
+}: Props) => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, amount: 0.2 })
 
   // הגדרות האנימציה לפי סוג האפקט
-  const variants: Record<string, any> = {
+  const variants: {
+    [key: string]: { opacity?: number; x?: number; y?: number; scale?: number }
+  } = {
     'fade-up': { opacity: 0, y: 40 },
     'fade-left': { opacity: 0, x: -40 },
     'fade-right': { opacity: 0, x: 40 },
