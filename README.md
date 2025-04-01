@@ -5,7 +5,8 @@ Welcome to the official landing page of our modern workspace application! This s
 
 ## 🎥 Demo
 
-![WorkSpace Demo](https://res.cloudinary.com/dhweqnxgd/video/upload/v1743488485/DEMO-ezgif.com-video-to-gif-converter_p5pjd0.mp4)
+![WorkSpace Demo](https://res.cloudinary.com/dhweqnxgd/image/upload/v1743488674/DEMO-ezgif.com-video-to-gif-converter_ji5m3t.gif)
+
 ---
 
 ## 🎨 Design and Features
