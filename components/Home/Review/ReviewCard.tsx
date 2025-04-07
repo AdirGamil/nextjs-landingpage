@@ -8,7 +8,7 @@ type Props = {
 }
 const ReviewCard = ({ name, image }: Props) => {
   return (
-    <div className="w-full relative bg-white p-12 rounded-lg shadow-md flex flex-col items-center space-y-3">
+    <div className="w-full relative bg-white p-12 flex flex-col items-center space-y-3">
       <FaQuoteLeft className="h-14 w-14 opacity-10 absolute top-0 left-4" />
       <div className="grid lg:grid-cols-5 gap-6 items-center">
         <div className="col-span-3 order-2 lg:order-1">

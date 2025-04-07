@@ -19,7 +19,7 @@ const responsive = {
 }
 const Review = () => {
   return (
-    <div className="py-16 bg-[#fcf6fa]">
+    <div className="py-16">
       <h1 className="mt-6 text-2xl md:text-3xl capitalize font-bold text-center">
         What client say about us
       </h1>

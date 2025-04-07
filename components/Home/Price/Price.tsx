@@ -2,7 +2,7 @@ import { pricingPlans } from "@/constant/Constant"
 
 const Price = () => {
     return (
-      <div className="py-16 bg-[#edfbff]">
+      <div className="py-16 ">
         <h2 className="mt-6 text-2xl md:text-3xl capitalize font-bold text-center">
           Meet exciting pricing plans
         </h2>

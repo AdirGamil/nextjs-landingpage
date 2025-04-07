@@ -51,7 +51,7 @@ const Feature = () => {
     },
   ]
   return (
-    <div className="bg-pink-50 py-20">
+    <div className="bg-[#edfbff] py-20">
       <div className="w-[80%] mx-auto text-center">
         <h1 className="text-2xl md:text-4xl font-bold capitalize ">
           Its Everything you will ever need
