@@ -4,7 +4,7 @@ import { FaCheckCircle } from 'react-icons/fa'
 
 const AnalyticsFeature = () => {
   return (
-    <div className="pt-24 p-16">
+    <div id='features' className="pt-24 p-16">
       {/* Define grid */}
       <div className="w-[80%] md:w-[95%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
         {/* Image Content */}

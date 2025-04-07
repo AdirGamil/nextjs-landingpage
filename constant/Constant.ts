@@ -1,34 +1,30 @@
 export const navLinks = [
   {
     id: 1,
-    url: '#',
+    url: '#top',
     label: 'Home',
   },
   {
     id: 2,
-    url: '#',
+    url: '#about',
     label: 'About',
   },
   {
     id: 3,
-    url: '#',
+    url: '#features',
     label: 'Features',
   },
   {
     id: 4,
-    url: '#',
+    url: '#testimonials',
     label: 'Testimonials',
   },
   {
     id: 5,
-    url: '#',
-    label: 'Blog',
+    url: '#pricing',
+    label: 'Pricing',
   },
-  {
-    id: 6,
-    url: '#',
-    label: 'Contact',
-  },
+
 ]
 
 export const pricingPlans = [

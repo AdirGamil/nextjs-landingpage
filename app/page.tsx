@@ -2,7 +2,7 @@ import Home from "@/components/Home/Home"
 
 const HomePage = () => {
   return (
-    <div >
+    <div id="top">
       <Home />
     </div>
   )

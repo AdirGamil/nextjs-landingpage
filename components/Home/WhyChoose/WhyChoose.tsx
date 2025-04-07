@@ -3,7 +3,7 @@ import WhyChooseCard from './WhyChooseCard'
 
 const WhyChoose = () => {
   return (
-    <div className="py-16">
+    <div id='about' className="py-16">
       <h1 className="mt-6 text-2xl md:text-4xl font-bold capitalize text-center">
         Why you choose this application
       </h1>

@@ -31,9 +31,11 @@ const Nav = ({ openNav }: Props) => {
     <div className={`fixed ${navBg ? 'bg-white shadow-md' : ''} w-full transition-all duration-200 h-[12vh] z-[100]`}>
       <div className="flex items-center justify-between h-full w-[90%] xl:w-[80%] mx-auto">
         {/* LOGO */}
-        <h1 className="text-xl md:text-2xl font-bold">
-          <span className="text-3xl md:text-4xl text-red-700">A</span>dir
-        </h1>
+        <Link href="#top">
+          <h1 className="text-xl md:text-2xl font-bold cursor-pointer">
+            <span className="text-3xl md:text-4xl text-red-700">A</span>dir
+          </h1>
+        </Link>
 
         {/* NAV LINKS */}
         <div className="hidden lg:flex items-center space-x-10">
